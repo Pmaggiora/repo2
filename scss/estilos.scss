@@ -1,0 +1,96 @@
+* {
+	margin: 0px;
+}
+h1 {
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Source Code Pro', monospace;
+	color: #27282e;
+	text-decoration: underline;
+	padding-top: 16px;
+}
+p {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: lighter;
+}
+.pie {
+	height: auto;
+	width: 100vw;
+	background-color: #f7f7f7;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.redes {
+	width: 30px;
+	display: inline-block;
+	padding-top: 10px;
+}
+.contenedor {
+	padding-top: 80px;
+	columns: 3;
+	column-gap: 16px;
+}
+
+.sabor {
+	display: inline-block;
+	position: relative;
+	margin-bottom: 16px;
+	img {
+		width: 100%;
+		border: 5px;
+	}
+}
+.galeria {
+	padding-top: 16px;
+	columns: 4;
+	column-gap: 16px;
+}
+.fotos {
+	display: inline-block;
+	margin-bottom: 16px;
+	position: relative;
+	img {
+		width: 100%;
+		border: 5px;
+	}
+}
+label {
+	display: block;
+	margin-top: 20px;
+	letter-spacing: 1px;
+}
+.formulario {
+	display: block;
+	margin: 0 auto;
+	width: 510px;
+	color: #f7f7f7;
+	font-family: 'Source Code Pro', monospace;
+}
+form {
+	margin: 0 auto;
+	width: 400px;
+	padding-bottom: 20px;
+}
+input, textarea {
+	width: 380px;
+	height: 27px;
+	background: #f7f7f7;
+	border: 2px solid #312d2d;
+	padding: 10px;
+	margin-top: 5px;
+	font-size: 10px;
+	color: #312d2d;
+}
+textarea {
+	height: 150px;
+}
+#submit {
+	width: 85px;
+	height: 35px;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+}
